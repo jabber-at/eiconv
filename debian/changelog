@@ -2,6 +2,7 @@ erlang-p1-iconv (0.2014.10.29-1) unstable; urgency=medium
 
   * Imported Upstream version 0.2014.10.29
   * Add VCS-* fields in debian/control.
+  * Add dpkg-dev (>= 1.16.1~) as build-dependency.
 
  -- Mathias Ertl <mati@jabber.at>  Sun, 21 Dec 2014 15:07:44 +0100
 

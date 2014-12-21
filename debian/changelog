@@ -1,3 +1,10 @@
+erlang-p1-iconv (0.2014.10.29-1) unstable; urgency=medium
+
+  * Imported Upstream version 0.2014.10.29
+  * Add VCS-* fields in debian/control.
+
+ -- Mathias Ertl <mati@jabber.at>  Sun, 21 Dec 2014 15:07:44 +0100
+
 erlang-p1-iconv (0.2014.04.30-1) unstable; urgency=medium
 
   * Imported Upstream version 0.2014.04.30

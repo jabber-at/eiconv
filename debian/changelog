@@ -1,6 +1,7 @@
 erlang-p1-iconv (0.2015.06.24-1) unstable; urgency=medium
 
   * Imported Upstream version 0.2015.06.24
+  * Add erlang-syntax-tools as direct dependency.
 
  -- Mathias Ertl <mati@jabber.at>  Sat, 04 Jul 2015 11:31:45 +0200
 

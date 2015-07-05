@@ -1,3 +1,9 @@
+erlang-p1-iconv (0.2015.06.24-2) unstable; urgency=medium
+
+  * New version because of repository problems.
+
+ -- Mathias Ertl <mati@jabber.at>  Sun, 05 Jul 2015 14:12:23 +0200
+
 erlang-p1-iconv (0.2015.06.24-1) unstable; urgency=medium
 
   * Imported Upstream version 0.2015.06.24

@@ -5,6 +5,7 @@ erlang-p1-iconv (0.9.0-0.1) unstable; urgency=medium
   * Use upstream-tag format to make use of upstream tags.
   * Increase Standards-Version to 3.9.6.
   * Add XSBC-Orig-Maintainer field.
+  * Fix debian/copyright errors.
 
  -- Mathias Ertl <mati@jabber.at>  Mon, 18 Jan 2016 22:27:16 +0100
 

@@ -1,6 +1,7 @@
 erlang-p1-iconv (1:0.9.0-0.2) unstable; urgency=medium
 
   * Merge most changes from the mainline Debian package.
+  * Force package version to 0.9.0 in debian/dh-rebar.conf.
 
  -- Mathias Ertl <mati@jabber.at>  Sat, 23 Jan 2016 21:26:09 +0100
 

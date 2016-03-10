@@ -13,6 +13,7 @@ Package: erlang-p1-iconv
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, erlang-base | ${erlang-abi:Depends},
          ${erlang:Depends}
+Conflicts: ejabberd (<< 1:16.02)
 Description: fast encoding conversion library for Erlang / Elixir
  This library is a native binding to the libiconv library.
  It was written for ejabberd which still uses it,

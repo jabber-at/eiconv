@@ -1,3 +1,3 @@
 version=3
 opts="filenamemangle=s/(?:.*)?v?(\d[\d\.]*)\.tar\.gz/erlang-p1-iconv_$1.tar.gz/" \
-  https://github.com/processone/eiconv/tags (?:.*/)?v?(\d[\d\.]*)\.tar\.gz
+  https://github.com/processone/iconv/tags (?:.*/)?v?(\d[\d\.]*)\.tar\.gz

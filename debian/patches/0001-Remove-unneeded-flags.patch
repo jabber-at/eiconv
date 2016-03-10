@@ -1,0 +1,39 @@
+From c2d4298ec28c3d827ae6c07b6a59c3d1cf9770cc Mon Sep 17 00:00:00 2001
+From: Mickael Remond <mremond@process-one.net>
+Date: Fri, 22 Jan 2016 10:28:54 +0100
+Subject: [PATCH 1/5] Remove unneeded flags
+
+---
+ CHANGELOG.md | 6 ++++++
+ rebar.config | 2 +-
+ 2 files changed, 7 insertions(+), 1 deletion(-)
+ create mode 100644 CHANGELOG.md
+
+diff --git a/CHANGELOG.md b/CHANGELOG.md
+new file mode 100644
+index 0000000..a02bc85
+--- /dev/null
++++ b/CHANGELOG.md
+@@ -0,0 +1,6 @@
++# Version 1.0.0
++
++* Application is now called iconv for consistency (Mickaël Rémond)
++* Initial release on Hex.pm (Mickaël Rémond)
++* Standard ProcessOne build chain (Mickaël Rémond)
++* Support for Travis-CI and test coverage (Mickaël Rémond)
+diff --git a/rebar.config b/rebar.config
+index cf18268..c692f0d 100644
+--- a/rebar.config
++++ b/rebar.config
+@@ -22,7 +22,7 @@
+ 
+ {erl_opts, [debug_info, {src_dirs, ["src"]}]}.
+ 
+-{port_env, [{"CFLAGS", "-g -O2 -Wall -g -O2 -Wall"},
++{port_env, [{"CFLAGS"},
+ 	    {"LDFLAGS", "$LDFLAGS $ERL_LDFLAGS "}]}.
+ 
+ {port_specs, [{"priv/lib/iconv.so", ["c_src/iconv.c"]}]}.
+-- 
+2.7.0
+

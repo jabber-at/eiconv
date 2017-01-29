@@ -1,5 +1,1 @@
-0001-Remove-unneeded-flags.patch
-0002-Fix-compilation-flags.patch
-#0003-Add-build-tools-badges.patch
-#0004-Metadata-for-hex.pm.patch
-#0005-Add-AM_INIT_AUTOMAKE-to-configure.ac-to-make-autorec.patch
+remove-deps.diff

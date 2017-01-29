@@ -2,8 +2,9 @@ Source: erlang-p1-iconv
 Priority: optional
 Maintainer: Mathias Ertl <mati@jabber.at>
 XSBC-Orig-Maintainer: Philipp Huebner <debalance@debian.org>
-Build-Depends: autotools-dev, debhelper (>= 9), dh-rebar, erlang-eunit, erlang-syntax-tools
-Standards-Version: 3.9.7
+Build-Depends: autotools-dev, debhelper (>= 9), dh-rebar, erlang-eunit, erlang-syntax-tools,
+ erlang-jiffy
+Standards-Version: 3.9.8
 Section: libs
 Homepage: https://github.com/processone/iconv
 VCS-Browser: https://github.com/jabber-at/eiconv

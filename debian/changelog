@@ -1,3 +1,9 @@
+erlang-p1-iconv (1:1.0.3-0.1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Mathias Ertl <mati@jabber.at>  Sun, 29 Jan 2017 13:32:42 +0100
+
 erlang-p1-iconv (1:1.0.0-0.2) unstable; urgency=medium
 
   * Add PKG_VERSION to dh_rebar.conf.

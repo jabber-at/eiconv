@@ -3,7 +3,7 @@ Priority: optional
 Maintainer: Mathias Ertl <mati@jabber.at>
 XSBC-Orig-Maintainer: Philipp Huebner <debalance@debian.org>
 Build-Depends: autotools-dev, debhelper (>= 9), dh-rebar, erlang-eunit, erlang-syntax-tools,
- erlang-jiffy
+ erlang-p1-utils (>= 1.0.6)
 Standards-Version: 3.9.8
 Section: libs
 Homepage: https://github.com/processone/iconv

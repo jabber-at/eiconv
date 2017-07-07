@@ -11,6 +11,8 @@ DESTDIR=$(CURDIR)/debian/erlang-p1-iconv
 
 
 override_dh_auto_configure:
+	# Test dh_rebar version
+	test "`dpkg-parsechangelog --show-field Version | sed 's/.*:\([^-]*\)-.*/\1/'`" = `grep PKG_VERSION debian/dh-rebar.conf | sed 's/PKG_VERSION=//'`
 	./configure
 	dh_auto_configure
 

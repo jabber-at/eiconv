@@ -3,9 +3,9 @@ Upstream-Name: iconv
 Source: https://github.com/processone/iconv
 
 Files: *
-Copyright: 2002-2016 ProcessOne
-           2003-2016 Alexey Shchepin <alexey@process-one.net>
-           2013-2016 Evgeniy Khramtsov <ekhramtsov@process-one.net>
+Copyright: 2002-2017 ProcessOne
+           2003-2017 Alexey Shchepin <alexey@process-one.net>
+           2013-2017 Evgeniy Khramtsov <ekhramtsov@process-one.net>
 License: Apache-2.0
  Licensed under the Apache License, Version 2.0 (the "License");
  you may not use this file except in compliance with the License.
@@ -30,7 +30,7 @@ License: FSF
  gives unlimited permission to copy, distribute and modify it.
 
 Files: debian/*
-Copyright: 2014-2016 Philipp Huebner <debalance@debian.org>
+Copyright: 2014-2017 Philipp Huebner <debalance@debian.org>
 License: GPL-2+
  This package is free software; you can redistribute it and/or
  modify it under the terms of the GNU General Public License as

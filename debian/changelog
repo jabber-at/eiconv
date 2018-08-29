@@ -9,6 +9,7 @@ erlang-p1-iconv (1:1.0.8-0.1) unstable; urgency=medium
   * Set Orig-Maintainer: Ejabberd Packaging Team
     <ejabberd@packages.debian.org>
   * Updated years in debian/copyright
+  * (Build-)Depend on erlang-base (>= 1:19.2)
   * Merge lintian-overrides
 
  -- Mathias Ertl <mati@jabber.at>  Wed, 29 Aug 2018 20:48:31 +0200

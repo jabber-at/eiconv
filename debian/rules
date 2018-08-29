@@ -8,7 +8,7 @@ DESTDIR=$(CURDIR)/debian/erlang-p1-iconv
 
 
 %:
-	dh $@ --buildsystem=rebar --with rebar --with autotools-dev
+	dh $@ --buildsystem=rebar --with rebar
 
 
 override_dh_auto_configure:
@@ -34,3 +34,6 @@ override_dh_auto_clean:
 	rm -f config.log config.status vars.config
 	rm -rf $(CURDIR)/priv
 	dh_auto_clean
+
+
+override_dh_autoreconf:

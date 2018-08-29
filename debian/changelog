@@ -4,6 +4,7 @@ erlang-p1-iconv (1:1.0.8-0.1) unstable; urgency=medium
   * Added debian/upstream/metadata
   * debian/rules: remove trailing whitespace
   * Updated Standards-Version: 4.1.4 (no changes needed)
+  * Switched to debhelper 11
   * Merge lintian-overrides
 
  -- Mathias Ertl <mati@jabber.at>  Wed, 29 Aug 2018 20:48:31 +0200

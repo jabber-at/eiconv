@@ -1,3 +1,9 @@
+erlang-p1-iconv (1:1.0.10-0.1) unstable; urgency=medium
+
+  * New upstream version 1.0.10
+
+ -- Mathias Ertl <mati@jabber.at>  Mon, 01 Oct 2018 21:05:26 +0200
+
 erlang-p1-iconv (1:1.0.8-0.1) unstable; urgency=medium
 
   * New upstream version 1.0.8
